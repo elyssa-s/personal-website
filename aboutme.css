@@ -1,0 +1,58 @@
+.background{
+   position: relative;
+   left: 0px;
+   top: 0px;
+   z-index: -1;
+   width: 100%;
+   background-size: cover;
+}
+
+.elyssa{
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  border-radius: 50%
+}
+
+h1{
+  font-family: "Avenir", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: #85CDF4;
+}
+
+p{
+  font-family: "Avenir", sans-serif;
+  color: #558FAE;
+  text-align: center;
+  font-size: 15px;
+}
+
+div{
+  display: inline-block;
+  padding: 50px;
+  border:3px dashed rgba(100, 168, 173, 0.3);
+  font-family: "Avenir", sans-serif;
+  font-size: 20px;
+  margin: 100px;
+}
+
+a{
+  font-family: "Avenir", sans-serif;
+  color: #096FA5;
+  font-size: 20px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+
+/*tr{
+  font-family: "Avenir";
+  width: 200px;
+  color: #9CB89B;
+  font-size: 20px;
+}*/
