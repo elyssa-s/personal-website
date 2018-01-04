@@ -34,27 +34,18 @@ a{
   text-align: center;
 }
 
-.resume{
+.side-image{
+
+  background-size: cover;
+  width: 50%
+}
+
+form{
   padding-top: 75px;
+  width: 50%;
+  float: left;
 }
 
-.heading{
-  font-family: "Avenir";
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.companies{
-  font-family: "Avenir";
-  font-weight: bold;
-}
-
-.job{
-  font-family: "Avenir";
-  font-style: italic;
-}
-
-.bullets{
-  font-family: "Avenir";
-  list-style-type: circle;
+.message{
+  height: 100px;
 }
