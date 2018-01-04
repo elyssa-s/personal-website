@@ -1,14 +1,29 @@
-.topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
+nav{
+  position: fixed;
+  background-color: white;
+  top:0;
+  left:0;
+  width: 100%;
+  z-index: 5;
+}
 
-.topnav a:hover{
+ul{
+  padding: 5px;
+  margin-right: 10px;
+  line-height: 50px;
+  list-style-type: none;
+  text-align: left;
+}
+
+ul li{
+  display: inline-block;
+  margin: 0 10px;
   color: black;
+}
+
+
+a:hover{
+  color: cyan;
 }
 
 .background {
@@ -33,12 +48,12 @@ h1{
   color: #85CDF4;
 }
 
-p{
+/*p{
   font-family: "Avenir", sans-serif;
   color: #558FAE;
   text-align: center;
   font-size: 15px;
-}
+}*/
 
 .attributes {
   display: inline-block;
@@ -46,7 +61,8 @@ p{
   border:3px dashed rgba(100, 168, 173, 0.3);
   font-family: "Avenir", sans-serif;
   font-size: 20px;
-  margin: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 a{
@@ -58,6 +74,21 @@ a{
   text-align: center;
 }
 
+.heading{
+  font-family: "Avenir";
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.companies{
+  font-family: "Avenir";
+  font-weight: bold;
+}
+
+ul{
+  font-family: "Avenir";
+  list-style-type: circle;
+}
 
 /*tr{
   font-family: "Avenir";
