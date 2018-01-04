@@ -1,6 +1,6 @@
 nav{
   position: fixed;
-  background-color: white;
+  background-color: (248,248,255,0.2);
   top:0;
   left:0;
   width: 100%;
@@ -72,22 +72,6 @@ a{
   text-decoration: none;
   display: block;
   text-align: center;
-}
-
-.heading{
-  font-family: "Avenir";
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.companies{
-  font-family: "Avenir";
-  font-weight: bold;
-}
-
-ul{
-  font-family: "Avenir";
-  list-style-type: circle;
 }
 
 /*tr{

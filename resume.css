@@ -1,0 +1,20 @@
+.heading{
+  font-family: "Avenir";
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.companies{
+  font-family: "Avenir";
+  font-weight: bold;
+}
+
+.job{
+  font-family: "Avenir";
+  font-style: italic;
+}
+
+ul{
+  font-family: "Avenir";
+  list-style-type: circle;
+}
