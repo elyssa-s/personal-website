@@ -49,3 +49,7 @@ form{
 .message{
   height: 100px;
 }
+
+.large-text{
+  height: 75px;
+}
